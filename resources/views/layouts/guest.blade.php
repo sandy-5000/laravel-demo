@@ -17,8 +17,12 @@
     <body class="font-sans text-gray-900 antialiased">
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
             <div>
-                <a href="/">
-                    <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+                <a href="/" class="flex justify-between">
+                    <x-logo class="h-16 fill-current text-gray-500" />
+                    <div class="w-4"></div>
+                    <div class="a-center">
+                        <h1 class="text-lg block font-semibold logo-text">DARKUBE</h1>
+                    </div>
                 </a>
             </div>
 

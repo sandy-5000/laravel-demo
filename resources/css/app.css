@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.a-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text {
+  background: linear-gradient(to right, #4257cc 0%, #8426bb 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
