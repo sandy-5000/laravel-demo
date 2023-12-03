@@ -1,7 +1,9 @@
 <?php
 
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,16 +21,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/apps', function () {
-    return response()->json([
-        'apps' => [
-            [
-                'name' => 'Hello world',
-                'type' => 'basic',
-            ],
-            [
-                'name' => 'Social Media',
-                'type' => 'advanced',
-            ],
-        ],
-    ]);
+    $user = User::where('email', 'cassi@gmail.com')->first();
+    $user = json_decode(json_encode($user));
+    return response()->json($user);
 });

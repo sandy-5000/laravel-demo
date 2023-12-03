@@ -17,7 +17,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return redirect('/home');
+});
+
+Route::get('/framework', function () {
+    return view('welcome');
 });
 
 Route::get('/dashboard', function () {
@@ -32,6 +36,7 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/users', function () {
     $user = User::where('email', 'cassi@gmail.com')->first();
+    $user = json_decode(json_encode($user));
     echo "<pre>" . print_r($user, true) . "</pre>";
     return response(true);
 });
