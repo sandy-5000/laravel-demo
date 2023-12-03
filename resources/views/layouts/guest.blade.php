@@ -21,8 +21,7 @@
         <div style="width: min(100%, 500px);" class="min-h-screen flex flex-col justify-center pt-6 px-3 sm:pt-0">
             <div class="a-center">
                 <a href="/" class="flex justify-between">
-                    <x-logo class="h-16 fill-current text-gray-500" />
-                    <div class="w-4"></div>
+                    <x-logo class="h-16 mr-3 fill-current text-gray-500" />
                     <div class="a-center">
                         <h1 class="text-lg block font-semibold logo-text">DARKUBE</h1>
                     </div>
