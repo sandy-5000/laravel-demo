@@ -16,6 +16,21 @@
     align-items: center;
 }
 
+.h-center {
+    display: flex;
+    justify-content: center;
+}
+
+.v-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#compiler .ace_content {
+  background-color: #ce78ff !important;
+}
+
 .logo-text {
   letter-spacing: 1px;
   text-transform: uppercase;

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Compiler\CompilerHomeController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Models\User;
@@ -44,5 +45,17 @@ Route::get('/users', function () {
 Route::get('/home', [
     HomeController::class, 'index'
 ])->name('home');
+
+Route::get('/compiler', function () {
+    return redirect('/compiler/home');
+});
+
+Route::get('/compiler/home', [
+    CompilerHomeController::class, 'index'
+])->name('compiler.home');
+
+Route::get('/compiler/editor', [
+    CompilerHomeController::class, 'editor'
+])->name('compiler.editor');
 
 require __DIR__ . '/auth.php';

@@ -40,14 +40,14 @@
             </div>
         </div>
         <div class="mt-8 max-w-7xl mx-auto sm:px-6 lg:px-8 flex flex-wrap justify-around">
-            <div class="p-3 w-1/2 md:w-1/3 lg:w-1/4 hover:scale-105">
+            <a href="{{ route('compiler.home') }}" class="p-3 w-1/2 md:w-1/3 lg:w-1/4 hover:scale-105">
                 <div class="bg-gray-800 shadow p-5 md:p-10 rounded-lg">
                     <img class="block w-full" src="/images/compiler.png" alt="compiler" />
                     <div class="mt-3 text-sm font-semibold text-center text-gray-100 dark:text-gray-100">
                         Online Compiler
                     </div>
                 </div>
-            </div>
+            </a>
             <div class="p-3 w-1/2 md:w-1/3 lg:w-1/4 hover:scale-105">
                 <div class="bg-gray-800 shadow p-5 md:p-10 rounded-lg">
                     <img class="block w-full" src="/images/blog.png" alt="compiler" />
