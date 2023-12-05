@@ -36,7 +36,10 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::get('/users', function () {
-    $user = User::where('email', 'cassi@gmail.com')->first();
+    $user = User::where([
+        ['name', '=', 'Cassi'],
+        ['email', '=', 'cassi@gmail.com'],
+    ])->get();
     $user = json_decode(json_encode($user));
     echo "<pre>" . print_r($user, true) . "</pre>";
     return response(true);

@@ -27,7 +27,7 @@
         </div>
         <div class="h-center">
             <div
-                class="mt-12 mx-5 md:mx-16 lg:mx-32 xl:mx-40 2xl:mx-72 bg-gray-800 text-slate-100 shadow px-5 md:px-10 lg:px-16 xl:px-24 py-14 rounded-lg">
+                class="mt-12 mx-5 md:mx-16 lg:mx-32 xl:mx-40 2xl:mx-68 bg-gray-800 text-slate-100 shadow px-5 md:px-10 lg:px-16 xl:px-24 py-14 rounded-lg">
                 <h5 class="text-center text-xl">Hello There!</h5>
                 <p class="text-center text-sm font-normal pt-5">
                     Welcome to our online compiler <span class="logo-text-bright text-md font-semibold">Darkube
@@ -40,11 +40,11 @@
             </div>
         </div>
         <div class="py-5">
-            <div class="mt-12 mx-5 md:mx-16 lg:mx-32 xl:mx-40 2xl:mx-72">
+            <div class="mt-12 mx-5 md:mx-16 lg:mx-32 xl:mx-40 2xl:mx-68">
                 <p class="text-center pb-4 font-light text-xl text-slate-100">To view in full screen go to Editor</p>
                 <iframe class="rounded-lg w-full h-[550px] bg-gray-800" title="compiler" id="compiler"
                     src="https://onecompiler.com/embed"></iframe>
-                <div class="flex justify-end my-3 px-3">
+                <div class="flex justify-end my-3 px-3 mt-5">
                     <span class="relative inline-flex">
                         <a href="/compiler/editor" class="box-grad">
                             <button type="button"
@@ -55,7 +55,7 @@
                         </a>
                         <span class="flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1">
                             <span
-                                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-700 opacity-75"></span>
+                                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-500 opacity-75"></span>
                             <span class="relative inline-flex rounded-full h-3 w-3 bg-gray-700 opacity-90"></span>
                         </span>
                     </span>
@@ -63,7 +63,7 @@
             </div>
         </div>
         <div class="my-8 px-4 bg-gray-800 h-center">
-            <div class="mx-5 md:mx-16 lg:mx-32 xl:mx-40 2xl:mx-72 lg:flex md:flex h-full">
+            <div class="mx-5 md:mx-16 lg:mx-32 xl:mx-40 2xl:mx-68 lg:flex md:flex h-full">
                 <div class="lg:w-1/2 md:w-1/2 w-full h-full py-20">
                     <div class="flex justify-between h-1/2">
                         <div class="lg:w-8/12 md:w-7/12 w-1/2 p-1 a-center">
@@ -112,8 +112,9 @@
             <div>
                 <div class="a-center mb-10">
                     <a class="box-grad" href="/compiler/editor">
-                        <Button class="rounded-sm z-[1] py-5 px-14 bg-gray-800 text-slate-100 a-center">
-                            <span class="font-[550] uppercase">View Editor</span>
+                        <Button class="rounded-lg animate-pulse z-[1] py-4 px-12 bg-gray-800 text-slate-100 a-center">
+                            <x-bi-code-alt fill="#f1f5f9" class="mr-3"></x-bi-code-alt>
+                            <span class="font-normal">View Editor</span>
                         </Button>
                     </a>
                 </div>

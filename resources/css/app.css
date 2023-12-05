@@ -45,6 +45,11 @@
   -webkit-text-fill-color: transparent;
 }
 
+.box-grad {
+  box-shadow: 0px 0px 4px 2px #b578ff;
+  border-radius: 0.075rem;
+}
+
 .box-grad:hover {
   box-shadow: 0px 0px 6px 3px #8597ff;
   border-radius: 0.125rem;
