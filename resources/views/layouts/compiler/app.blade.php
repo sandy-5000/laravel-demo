@@ -23,7 +23,7 @@
         @include('layouts.compiler.navigation')
 
         <!-- Page Content -->
-        <main class="px-2">
+        <main class="px-0">
             {{ $slot }}
         </main>
 
