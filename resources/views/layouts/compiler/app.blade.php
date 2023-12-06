@@ -19,6 +19,7 @@
 </head>
 
 <body class="font-sans antialiased bg-gray-900">
+    <div class="hidden blur-sm"></div>
     <div class="relative min-h-screen flex flex-col">
         @include('layouts.compiler.navigation')
 
