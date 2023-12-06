@@ -49,7 +49,7 @@
                         <a href="/compiler/editor" class="box-grad">
                             <button type="button"
                                 class="inline-flex items-center px-4 py-2 font-semibold leading-6 shadow rounded-sm text-white bg-gray-800 transition ease-in-out duration-150 cursor-pointer">
-                                <x-bi-code-alt fill="#f1f5f9" class="text-md mr-2"></x-bi-code-alt>
+                                <x-svgs.BiCodeAlt fill="#f1f5f9" class="text-md mr-2"></x-svgs.BiCodeAlt>
                                 <span class="font-[450] normal-case text-sm">Go To Editor</span>
                             </button>
                         </a>
@@ -113,7 +113,7 @@
                 <div class="a-center mb-10">
                     <a class="box-grad" href="/compiler/editor">
                         <Button class="rounded-lg animate-pulse z-[1] py-4 px-12 bg-gray-800 text-slate-100 a-center">
-                            <x-bi-code-alt fill="#f1f5f9" class="mr-3"></x-bi-code-alt>
+                            <x-svgs.BiCodeAlt fill="#f1f5f9" class="mr-3"></x-svgs.BiCodeAlt>
                             <span class="font-normal">View Editor</span>
                         </Button>
                     </a>
