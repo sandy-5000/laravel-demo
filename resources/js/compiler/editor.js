@@ -37,7 +37,6 @@ const swiftLanguage = (lang) => {
     if (data) {
         x = JSON.parse(data)
     }
-    console.log('shift')
     editor.contentWindow.postMessage({
         eventType: 'populateCode',
         language: x.language,

@@ -2,7 +2,7 @@
     <div class="relative">
         <x-compiler.modal :class="__('hidden')"></x-compiler.modal>
         <div class="editor w-full">
-            <div class="py-4 px-3 flex justify-end">
+            <div class="py-4 px-3 flex justify-end md:justify-start">
                 <x-secondary-button onclick="openModal()">
                     <span class="select-btn">Java</span>
                 </x-secondary-button>
