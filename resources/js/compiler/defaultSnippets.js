@@ -206,7 +206,7 @@ export const snippets = {
         files: [
             {
                 name: 'HelloWorld.php',
-                content: '<?php\necho "Hello world!";\n'
+                content: '<?php\n\necho "Hello world!";\n'
             }
         ]
     },

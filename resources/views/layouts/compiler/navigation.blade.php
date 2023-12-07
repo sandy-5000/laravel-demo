@@ -6,10 +6,10 @@
                 <!-- Logo -->
                 <a href="{{ route('compiler.home') }}" class="flex justify-end">
                     <div class="a-center">
-                        <x-logo-big style="height: 55px" class="block" />
+                        <x-logo-glow class="w-[55px]"></x-logo-glow>
                     </div>
                     <div class="a-center">
-                        <h1 class="pl-2 logo-text text-lg">Compiler</h1>
+                        <h1 class="pl-2 logo-text text-lg font-semibold">Compiler</h1>
                     </div>
                 </a>
 

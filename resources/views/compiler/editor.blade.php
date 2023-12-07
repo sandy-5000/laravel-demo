@@ -16,4 +16,4 @@
         </div>
     </div>
 </x-compiler-layout>
-<script src={{ Vite::asset('resources/js/compiler/editor.js') }}></script>
+ @vite(['resources/js/compiler/editor.js'])

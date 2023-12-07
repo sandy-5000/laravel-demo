@@ -14,11 +14,7 @@
         <div class="h-center">
             <div class="mt-10">
                 <div class="h-center">
-                    <div class="hover-effect relative w-[200px] h-[200px] cursor-none">
-                        <x-logo-big class="absolute z-[0] left-0 right-0 h-full"></x-logo-big>
-                        <x-logo-big class="absolute z-[1] hover:blur-md left-0 right-0 h-full"></x-logo-big>
-                        <x-logo-big class="animate-pulse absolute z-[0] blur-xl left-0 right-0 h-full"></x-logo-big>
-                    </div>
+                    <x-logo-glow></x-logo-glow>
                 </div>
                 <div class="h-center">
                     <h1 class="text-center logo-text-bright uppercase font-semibold text-lg mx-20">Darkube Compiler</h1>
@@ -119,10 +115,12 @@
                     </a>
                 </div>
                 <div class="w-full a-center">
-                    <div class="relative cursor-none aspect-square lg:w-[250px] md:w-4/12 w-7/12">
+                    <x-logo-glow :class="__('w-[250px]')"></x-logo-glow>
+{{-- 
+                    <div class="relative cursor-none aspect-square w-[250px]">
                         <x-logo-big class="absolute z-[0] left-0 right-0 h-full"></x-logo-big>
                         <x-logo-big class="animate-pulse absolute z-[0] blur-md left-0 right-0 h-full"></x-logo-big>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
