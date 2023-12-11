@@ -47,7 +47,7 @@
     ];
 @endphp
 
-<div class="modal absolute left-0 top-2 flex w-screen h-screen z-10 justify-center {{ $class }}" onclick="closeModal()">
+<div class="modal absolute left-0 top-[120px] flex w-screen h-screen z-10 justify-center {{ $class }}" onclick="closeModal()">
     <div class="relative w-11/12 md:w-8/12 lg:w-1/2">
         <div class="dialog absolute left-0 top-0 w-full h-fit bg-slate-800 rounded-lg">
             <div class="text-[#e91e63] text-[20px] font-normal p-5 pb-0">
